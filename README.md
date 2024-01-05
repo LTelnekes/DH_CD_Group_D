@@ -1,4 +1,5 @@
-# Collecting_Data_GroupD
+# Music Popularity Across Platforms: United States' Spotify Charts vs. Billboard Hot 100
+## Collecting_Data_GroupD
 
 ### Corpus Description
 information 
