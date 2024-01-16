@@ -44,7 +44,7 @@ In order to clean and preprocess the Billboard Hot 100 data from the dataset fou
 ### File Format and Description of Columns
 - `.csv` Comma-separated values, includes metadata on the songs for both the Billboard top 100 and the Spotify Viral 50 and Top 200 charts. 
 
-**Colums in Used Spotify CSVs:**
+**Columns Used in Spotify CSV:**
 
 | Variable      | Description                                  |
 | ------------- | -------------------------------------------- |
@@ -61,4 +61,14 @@ In order to clean and preprocess the Billboard Hot 100 data from the dataset fou
 | source  | The record label or company within which the song has been released  |
 
 
-### Additional Notes
+**Columns Used in Billboard CSV:**
+
+| Variable      | Description                                  |
+| ------------- | -------------------------------------------- |
+| date          | The date of the chart |
+| rank  | Where the song falls in the numbered rankings    |
+| song     | The tile of the song |
+| artist | The performing artist of the song                 |
+| last-week  | *information*  |
+| peak-rank    | The highest position on the charts the song has taken  |
+| weeks-on-board  | Number of weeks that the song has remained on the Billboard charts  |
