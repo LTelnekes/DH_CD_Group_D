@@ -2,7 +2,7 @@
 ## Collecting_Data_GroupD
 
 ### Corpus Description
-This corpus contains two datasets: the first includes data collected about the top 100 songs from each month of 2021 on the Spotify charts, while the second includes data collected about the top 100 songs from each month of 2021 on the Billboard Hot 100 charts.
+This corpus contains two datasets: the first includes data collected about the top 100 songs from each week of 2021 on the Spotify charts, while the second includes data collected about the top 100 songs from each week of 2021 on the Billboard Hot 100 charts.
 
 Both sets concern data collected only from the United States.
 
@@ -20,7 +20,7 @@ The intended usage of this corpus is to inform interested researchers, scholars,
 The tutorial and active learning exercises in this repository are useful for people who are interested in learning about data collection and doing data analysis in Python. 
 
 ### Text Selection Criteria
-The songs in the corpus were included based on their popularity rankings per month - if they were one of the top 100 most popular songs of that month, they were included. This “popularity” is defined differently by both Spotify and the Billboard Hot 100. Spotify formulates its charts through mainly algorithms that consider mostly streaming but also shares, number of listeners, including new ones, and even rates of saving songs to playlists or skipping. The Billboard Hot 100 charts are informed by several factors, including sales (physical and digital), radio airplay, digital downloads, and online streaming. Both datasets contain the necessary identifying or crucial information about the songs such as the title, the artist, and its ranking, but because Spotify releases multiple charts every few days, the chart on which the song was ranked is also included while this is not necessary for the Billboard Hot 100 as there is only one chart per month. Date was also included for the Spotify dataset as there are multiple charts per month.
+The songs in the corpus were included based on their popularity rankings per month - if they were one of the top 100 most popular songs of that month, they were included. This “popularity” is defined differently by both Spotify and the Billboard Hot 100. Spotify formulates its charts through mainly algorithms that consider mostly streaming but also shares, number of listeners, including new ones, and even rates of saving songs to playlists or skipping. The Billboard Hot 100 charts are informed by several factors, including sales (physical and digital), radio airplay, digital downloads, and online streaming. Both datasets contain the necessary identifying or crucial information about the songs such as the title, the artist, and its ranking, as well as the number of weeks on the board or chart (a big indicator of overall popularity), its ranking the previous week, and its peak rank. "Date" was included to be a linking column between both datasets.
 
 While there was extra data about Spotify’s top songs, only the top 100 were included to allow for a fair comparison to the Billboard Hot 100.
 
@@ -69,6 +69,6 @@ In order to clean and preprocess the Billboard Hot 100 data from the dataset fou
 | rank  | Where the song falls in the numbered rankings    |
 | song     | The tile of the song |
 | artist | The performing artist of the song                 |
-| last-week  | *information*  |
+| last-week  | The ranking of the song in the previous week   |
 | peak-rank    | The highest position on the charts the song has taken  |
 | weeks-on-board  | Number of weeks that the song has remained on the Billboard charts  |
