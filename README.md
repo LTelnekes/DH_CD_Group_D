@@ -26,7 +26,7 @@ While there was extra data about Spotify’s top songs, only the top 100 were in
 
 
 ### Data Collection Process
-The Billboard Hot 100 data was collected from Kaggle - a website and online community where users can share and download datasets. The owner of the dataset is [Dhruvil Dave](https://www.kaggle.com/dhruvildave). He is a graduate student from the University of Texas at Dallas. He shared this Billboard Chart dataset which includes ‘The Hot 100’ chart of songs according to Billboard’s ranking system. This dataset includes a collection of all the weekly Billboard Hot 100 charts between 04-08-1958 and 06-11-2021. Dave published the dataset on Kaggle under the license: CC BY-NC-SA 4.0. 
+The Billboard Hot 100 data was collected from Kaggle - a website and online community where users can share and download datasets. The owner of the dataset is [Dhruvil Dave](https://www.kaggle.com/dhruvildave). He is a graduate student from the University of Texas at Dallas. He shared this Billboard Chart dataset which includes ‘The Hot 100’ chart of songs according to Billboard’s ranking system. This dataset includes a collection of all the weekly Billboard Hot 100 charts between 04-08-1958 and 06-11-2021. Dave published the dataset on Kaggle under the license: `CC BY-NC-SA 4.0.` 
 
 For our project’s purpose, we cleaned the data to only include the charts in 2021.
 
