@@ -1,5 +1,5 @@
 # Music Popularity Across Platforms: United States' Spotify Charts vs. Billboard Hot 100
-## Collecting_Data_GroupD
+## Collecting Data - Group D
 
 ### Corpus Description
 This corpus contains two datasets: the first includes data collected about the top 100 songs from each week of 2021 on the Spotify charts, while the second includes data collected about the top 100 songs from each week of 2021 on the Billboard Hot 100 charts.
