@@ -42,7 +42,8 @@ In order to clean and preprocess the Billboard Hot 100 data from the dataset fou
 
 
 ### File Format and Description of Columns
-- `.csv` Comma-separated values, includes metadata on the songs for both the Billboard top 100 and the Spotify Viral 50 and Top 200 charts. 
+- `.csv` Comma-separated values, includes metadata on the songs for both the Billboard top 100 and the Spotify Top 200 charts.
+- `.ipynb` Jupyter Notebook, includes an introduction, a tutorial and active learning excercises.
 
 **Columns Used in Spotify CSV:**
 
