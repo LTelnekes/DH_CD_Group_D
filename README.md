@@ -48,11 +48,17 @@ In order to clean and preprocess the Billboard Hot 100 data from the dataset fou
 
 | Variable      | Description                                  |
 | ------------- | -------------------------------------------- |
-|
-| title       | The tile of the song |
-| rank     | The position of the song in the charts         |
+| rank  | Where the song falls in the numbered rankings    |
+| uri    | Identifying string of characters for the song    |
+| artist_names | The performing artist of the song                 |
+| track_name      | The tile of the song |
+| peak_rank    | The highest position on the charts the song has taken  |
+| previous_rank  | The previous position on the charts the song has taken    |
+| weeks_on_chart  | Number of weeks that the song has remained on the charts  |
+| streams  | How many digital streams the song has  |
 | date          | The date of the chart |
-| artist  | The performing artist of the song                 |
+| country     | The country that the song has reached chart status in         |
+| source  | The record label or company within which the song has been released  |
 
 
 ### Additional Notes
