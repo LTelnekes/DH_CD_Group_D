@@ -6,10 +6,16 @@ This corpus contains two datasets: the first includes data collected about the t
 
 Both sets concern data collected only from the United States.
 
-The attached notebook in this repository consists of three parts. 
-1. Introduction
-2. Tutorial
-3. Active Learning Exercises 
+This repository inludes:
+- A Data Management Plan for this project.
+- Two CSV files
+  - 2021 Top 200 Spotify data
+  - 2021 Billboard Hot 100 data
+- A Jupyter Notebook
+  - The attached notebook in this repository consists of three parts.
+    - Part 1: Introduction
+    - Part 2: Tutorial
+    - Part 3: Active Learning Exercises 
 
 ### Target Audience
 The target audiences for this corpus are record labels or even musical artists to identify popular trends in music in order to cater musical releases for maximum success - it can also be used in this way for advertisers or marketers. This corpus could also be used by data scientists or academics who study the arts and who might have research questions, hypotheses, or studies concerning musical trends, popularity, and audience or consumer interaction with music and genres.
@@ -73,3 +79,14 @@ In order to clean and preprocess the Billboard Hot 100 data from the dataset fou
 | last-week  | The ranking of the song in the previous week   |
 | peak-rank    | The highest position on the charts the song has taken  |
 | weeks-on-board  | Number of weeks that the song has remained on the Billboard charts  |
+
+
+**Contributors** 
+- Shuxiang Du
+- Tessa Eisen
+- Linchun Hou
+- Yingyue Jiang
+- Maria Kutepova
+- Lotte Telnekes
+- Spring Wan
+- Josie Wisowaty 
