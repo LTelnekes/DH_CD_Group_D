@@ -6,17 +6,14 @@ This corpus contains two datasets: the first includes data collected about the t
 
 Both sets concern data collected only from the United States.
 
-This repository inludes:
-- A Data Management Plan for this project
-- Two CSV files
-  - 2021 Top 200 Spotify data
-  - 2021 Billboard Hot 100 data
-- A Jupyter Notebook
-  - The attached notebook in this repository consists of three parts:
+### File Format and Content
+- `.pdf` Portable document format; includes the Data Management Plan for this project
+- `.csv` Comma-separated values; includes (meta)data on the songs for both the Billboard top 100 and the Spotify Top 200 charts.
+- `.ipynb` Jupyter Notebook; the notebook in this repository consists of three parts:
     - Part 1: Introduction
     - Part 2: Tutorial
-    - Part 3: Active Learning Exercises 
-
+    - Part 3: Active Learning Exercises
+   
 ### Target Audience
 The target audiences for this corpus are record labels or even musical artists to identify popular trends in music in order to cater musical releases for maximum success - it can also be used in this way for advertisers or marketers. This corpus could also be used by data scientists or academics who study the arts and who might have research questions, hypotheses, or studies concerning musical trends, popularity, and audience or consumer interaction with music and genres.
 
@@ -46,10 +43,6 @@ For Spotify, this included defining the columns needed from the collected data (
 
 In order to clean and preprocess the Billboard Hot 100 data from the dataset found on Kaggle, the columns first had to be renamed in both datasets: ‘artist_names’ for ‘artist’, ‘track_name’ for ‘song’, and ‘weeks_on_chart’ for ‘weeks_on_charts’ in Spotify; ‘peak-rank’ for ‘peak_rank’ and ‘weeks-on-board’ for ‘weeks_on_charts’ for Billboard). Next was to drop columns that would not be needed: ‘uri’, ‘country’, ‘source’ (as the U.S. was previously specified in the prior preprocessing step), and  ‘previous_rank’ for Spotify, and ‘last-week’ for Billboard. Next was to change the order of the columns for uniformity between datasets as follows: song, artist, date, rank, weeks_on_charts, peak_rank, and, for Spotify only, streams.
 
-
-### File Format and Description of Columns
-- `.csv` Comma-separated values, includes metadata on the songs for both the Billboard top 100 and the Spotify Top 200 charts.
-- `.ipynb` Jupyter Notebook, includes an introduction, a tutorial and active learning excercises.
 
 **Columns Used in Spotify CSV:**
 
