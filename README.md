@@ -89,4 +89,4 @@ In order to clean and preprocess the Billboard Hot 100 data from the dataset fou
 - Maria Kutepova
 - Lotte Telnekes
 - Spring Wan
-- Josie Wisowaty 
+- Josie Wisowaty
