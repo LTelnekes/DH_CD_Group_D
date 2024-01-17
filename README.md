@@ -7,12 +7,12 @@ This corpus contains two datasets: the first includes data collected about the t
 Both sets concern data collected only from the United States.
 
 This repository inludes:
-- A Data Management Plan for this project.
+- A Data Management Plan for this project
 - Two CSV files
   - 2021 Top 200 Spotify data
   - 2021 Billboard Hot 100 data
 - A Jupyter Notebook
-  - The attached notebook in this repository consists of three parts.
+  - The attached notebook in this repository consists of three parts:
     - Part 1: Introduction
     - Part 2: Tutorial
     - Part 3: Active Learning Exercises 
